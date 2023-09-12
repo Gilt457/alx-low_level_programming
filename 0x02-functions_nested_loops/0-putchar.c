@@ -1,21 +1,17 @@
-#include"main.h"
-
+#include "holberton.h"
 /**
- * main - Entry point
- *
- * Description: prints _putchar using putchar prototype
- *
- * Return: Always 0 (Success)
-*/
-
+ * main - prints the string "Holberton" from a character array.
+ * Return: 0 on success.
+ */
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+	char c[] = "Holberton";
+	int i;
 
-	for (ch = 0; ch < 8; ++ch)
-		_putchar(str[ch]);
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
 	_putchar('\n');
-
 	return (0);
 }
