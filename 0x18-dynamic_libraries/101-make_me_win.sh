@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -p .. https:// raw.githubusercontent.com/Gilt457/alx-low_level_programming/blob/master/0x18-dynamic_libraries/libhack.so
-export LD_PRELOAD="$PWD/../libhack.so"
+wget -P /tmp https://github.com/Gilt457/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libwinner.so
+export LD_PRELOAD=/tmp/libwinner.so
